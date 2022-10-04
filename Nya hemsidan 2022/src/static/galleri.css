@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=David+Libre&family=Patrick+Hand&display=swap');
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to top left, #f8ec4d, #f54702);
+  }
+    h1 {
+    font-family: "Special Elite", David Libre, peddana, cursive;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 50px;
+    padding: 0;
+    line-height: 1.3;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    color: white;
+  }
+  #img_1, #img_2, #img_3{
+   height: 200px;
+   width: 200px;
+   margin-bottom:2em;
+  }
+  #footer{
+   
+    width: 20em;
+  }
+  #earlier_page{
+    font-size:medium;
+    font-weight: bold;
+    font-family: "Special Elite", David Libre, peddana, cursive;
+    text-decoration: none;
+    color: white;
+  }
+  #earlier_page:hover{
+    color: greenyellow;
+  }
+  #text_galleri{
+    font-family: "Special Elite", David Libre, peddana, cursive;
+    font-size: 25px;
+    margin-left:4rem;
+  }
+  #notis{
+    font-family: "Special Elite", David Libre, peddana, cursive;
+    font-size: 15px;
+    margin-left:4rem;
+  }
+  #group_imgs{
+    margin-top: 2rem;
+  }
+  #starter{
+    margin-top: 110rem;
+  }
+  .img-group{
+    margin-left: 50px;
+  }
+ @media screen and (max-width : 690px) and (min-width: 320px){
+     #starter{
+    margin-top: 200rem;
+    margin-left: 5rem;
+  }
+   #group_imgs{
+    margin-top: 1rem;
+  }
+  .img-group{
+    margin-left: 50px;
+  }
+ } 

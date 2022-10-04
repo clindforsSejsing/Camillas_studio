@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=David+Libre&family=Patrick+Hand&display=swap');
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to top left, #f8ec4d, #f54702);
+  }
+
+  h1 {
+    font-family: sans-serif;
+    font-size: 50px;
+    line-height: 1.3;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    color: white;
+  }
+  p{
+    color: white;
+  }
+/*style av övrig text*/
+
+* {
+    color: white;
+    text-indent: 50px;
+    font-family: "Special Elite", David Libre, peddana, cursive;
+}
+
+
+/*val av font, strlk, positionering av heading 2-3*/
+
+h2, h3 {
+    font-family: "Special Elite", David Libre, peddana, cursive;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+/*style av paragraf */
+
+p {
+    font-family: "Special Elite", David Libre, peddana, cursive;
+    font-size: 20px;
+}
+
+/*style av box som utgör större del av sidorna, underlättar positionering av text.
+varje sida har egen box samt eget utrymme på css-fil, när de sattes under samma hände
+det att resultatet ej blev som förväntat*/
+
+#firstpage {
+    display: flex;
+    margin-left: 0;
+    flex-direction: column;
+    text-align: center;
+    width: 600px;
+    padding: 10px;
+}
+
+#secondpage {
+    display: flex;
+    margin-left: 0;
+    flex-direction: column;
+    text-align: center;
+    width: 600px;
+}
+
+@media screen and (max-width : 690px) and (min-width: 320px){
+
+    a#camillas {
+        font-size: 40px;
+        margin-left: -18rem;
+    }
+    div#meny{
+        font-size: 15px;
+        width: 250px;
+       margin-top: 0;
+       margin-left: 0.5rem;
+       padding: 1rem;
+       text-decoration: none;
+
+    }
+    #meny li:nth-child(2){
+        margin-left: -4rem;
+    }
+    div.menu{
+        font-size: 10px;
+        margin-left: -17rem;
+       padding: 0;
+    }
+    div.follow{
+        margin-left: -17rem;
+    }
+    div#firstpicture{
+        width: 20rem;
+        height:20rem;
+        margin-left: -5rem;
+    }
+   p.kontakt{
+       font-size: 22px;
+       width: 19rem;
+       height: 15rem;
+       margin-left: 3rem;
+       text-align: center;
+   }
+   div#information{
+       margin-left: -3rem;
+       
+   }
+   h2#attTankaPa{
+       font-size: 20px;
+       margin-left: -16rem;
+   }
+   p#attTankaText{
+       font-size: 15px;
+       margin-left: 2rem;
+       width: 250px;
+   }
+   h2#attTankaPa1{
+       width: 300px;
+       height: 10px;
+       font-size: 20px;
+       margin-left: 1rem;
+       
+   }
+   #list1 li{
+       font-size: 15px;
+       margin-left: -0.5rem;
+       width: 250px;
+   }
+   h2#attTankaPa3{
+    width: 300px;
+    height: 10px;
+    font-size: 30px;
+    margin-left: 1rem; 
+   }
+   h3#attTankaPa2{
+    width: 300px;
+    height: 10px;
+    font-size: 20px;
+    margin-left: 1rem; 
+   }
+   #list2 li{
+    font-size: 15px;
+    margin-left: 2rem;
+    width: 150px;
+    
+   }
+   p#attTankaText2{
+       font-size: 15px;
+       margin-left: -2rem;
+       width: 300px;
+
+   }
+   #list3 li{
+    font-size: 15px;
+    margin-left: 0.5rem;
+    width: 250px;
+    
+   }
+  ol#list3{
+      padding-top: 0;
+  }
+  div#follow3{
+      margin-left: 15rem;
+  }
+  h3#attTankaPa{
+    width: 300px;
+    height:10rem;
+    font-size: 18px;
+    margin-left: -1rem; 
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  p#textEfterV{
+    font-size: 15px;
+    margin-left: 0.5rem;
+    width: 250px;
+  }
+  h2#attTankaPa5{
+    width: 250px;
+    height:10rem;
+    font-size: 18px;
+    margin-left: -1rem; 
+    margin-bottom: 0;
+    padding-bottom: 0; 
+  }
+  /*galleri*/
+  div.bilder_tats{
+    display: grid;
+    grid-template-columns:  repeat(10, 1fr);
+    grid-template-rows: repeat (7, 1fr);
+  }
+  div.bilder3 {
+    grid-column: 1/10;
+    grid-row: 1/4;
+    margin-left: -15rem;
+}
+div.bilder4 {
+    grid-column: 1/10;
+    grid-row: 4/8;
+    margin-left: -15rem;
+    height: auto;
+}
+div#secondpage{
+    height: 430rem;
+}
+div#followMe{
+    margin-left: 15rem;
+}
+/*mossor o tryck*/
+div.bilder2{
+    margin-left: -10rem;
+}
+div.right{
+    margin-left:-17rem;
+}
+/*kassar*/
+div.bilder5{
+    margin-left: -17rem;
+}
+/*flaskor*/
+div.bilder6{
+    margin-left: -18rem;
+}
+/*tavlor*/
+p#infoT{
+    font-size: 20px;
+    margin-left: 3rem;
+    width: 250px;
+}
+a#shop{
+    padding: 2rem;
+    font-size: 15px;
+    margin-left: -10rem;
+    /* height: 50px;*/
+ 
+} 
+a#shop:hover{
+    color: red;
+}
+}
+
+    
+#thirdpage {
+    display: flex;
+    margin-left: 0;
+    flex-direction: column;
+    text-align: center;
+    width: 600px;
+}
+
+#fourthpage {
+    display: flex;
+    margin-left: 0;
+    flex-direction: column;
+    text-align: center;
+    width: 600px;
+}
+
+#fifthpage {
+    display: flex;
+    margin-left: 0;
+    flex-direction: column;
+    text-align: center;
+    width: 600px;
+}
+
+/*styling och positionering av menyn*/
+
+#meny {
+    color: white;
+    list-style: none;
+    font-size: 30px;
+    line-height: 1.8;
+    font-family: "Special Elite", David Libre, peddana, cursive;
+    width: 250px;
+    float: left;
+    margin-top: 200px;
+    margin-left: 10rem;
+    text-decoration: none;
+}
+
+a {
+    /* tar bort underlines*/
+    text-decoration: none;
+}
+
+/*centrerar bilden*/
+
+#firstpicture {
+    padding: 20px;
+    float: left;
+}
+
+#viking {
+    height: 300px;
+    width: 400px;
+}
+
+/*sida galleri, stylar box samt bilder i boxen. Centrerar text och ordnar bilder i columner*/
+
+/*style för bilderna, gick ej igenom valideringen om de satts med samma id, därav individuellt id*/
+
+#p00, #p0, #p1, #p2, #p3, #p4, #p5, #p6, #p7, #p8, #p9, #p10, #p11, #p12, #p13, #p14, #p15, #p16, #p17, #p18, #p19, #p20, #p21, #p22, #p23 {
+    margin-left: 13rem;
+    margin-top: 3rem;
+    padding: 5px;
+    size: 150px;
+}
+
+.bilder {
+    width: 100rem;
+    height: auto;
+    margin-top: 7rem;
+    margin-right: 200rem;
+    overflow-x: scroll;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bilder2 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat (4, 1fr);
+}
+
+.bilder2 .left {
+    grid-column: 3/6;
+    grid-row: 1/2;
+}
+
+.bilder2 .right {
+    grid-column: 7/12;
+    grid-row: 1/2;
+}
+
+/*--------------*/
+
+.bilder_tats {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows:  repeat(12, 1fr);
+    margin-left: -10rem;
+}
+
+.bilder3 {
+    grid-column: 2/6;
+    grid-row: 1/2;
+}
+
+.bilder4 {
+    grid-column: 7/13;
+    grid-row: 1/2;
+}
+
+/*style för texten i de olika boxarna och listorna*/
+
+.follow {
+    text-align: center;
+    margin-bottom: 10rem;
+    text-decoration: none;
+}
+

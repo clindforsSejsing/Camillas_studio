@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=David+Libre&family=Patrick+Hand&display=swap');
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to top left, #f8ec4d, #f54702);
+  }
+
+  h1 {
+    color: white;
+    font-family: "Special Elite", David Libre, peddana, cursive;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 50px;
+    padding: 0;
+    text-decoration: none;
+    animation: animation_fade 3s; 
+  }
+ h1:hover{
+    color:rgb(213, 108, 59); 
+  }
+  p{
+    color: white;
+  }
+  #text_under_header{
+  visibility: hidden;  
+  animation: text_fadeIn 5s;
+  }
+  @keyframes animation_fade {
+   0% {
+    transform: translateY(-100px);
+  }
+  50% {
+    transform: translateY(50px);
+  }
+}
+
+  @keyframes text_fadeIn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

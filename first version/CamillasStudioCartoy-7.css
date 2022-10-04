@@ -1,0 +1,150 @@
+
+/* css-stylesheet för webbsidorna till Camillas Studio*/
+body{
+background-color: black;
+margin: 0;
+padding: 0;
+}/* företagsnamnet. val av font, font strlk, text centrerad, ingen padding, ingen underline då den är länkad.*/
+h1{
+color: white;
+font-family: "Special Elite", David Libre, peddana, cursive;
+font-size: 60px;
+text-align: center;
+margin-top: 50px;
+padding: 0;
+text-decoration: none;
+}/*val av font, strlk, positionering av heading 2-3*/
+h2, h3{
+font-family: "Special Elite", David Libre, peddana, cursive;
+font-size: 30px;
+text-align: center;
+margin-top: 50px;
+padding: 0;
+text-decoration: none;
+}/*style av övrig text*/
+* {
+color: white;
+text-indent: 50px;
+font-family: "Special Elite", David Libre, peddana, cursive;
+}/*style av paragraf */
+p{
+font-family: "Special Elite", David Libre, peddana, cursive;
+font-size: 20px;
+}/*style av box som utgör större del av sidorna, underlättar positionering av text.
+varje sida har egen box samt eget utrymme på css-fil, när de sattes under samma hände
+det att resultatet ej blev som förväntat*/
+#firstpage {
+display: flex;
+margin-left: 0;
+flex-direction: column;
+text-align: center;
+width: 600px;
+padding: 10px;
+}
+#secondpage{
+display: flex;
+margin-left: 0;
+flex-direction: column;
+text-align: center;
+width: 600px;
+}
+#thirdpage{
+display: flex;
+margin-left: 0;
+flex-direction: column;
+text-align: center;
+width: 600px;
+}
+#fourthpage{
+display: flex;
+margin-left: 0;
+flex-direction: column;
+text-align: center;
+width: 600px;
+}
+#fifthpage{
+display: flex;
+margin-left: 0;
+flex-direction: column;
+text-align: center;
+width: 600px;
+}/*styling och positionering av menyn*/
+#meny {
+color: white;
+list-style: none;
+font-size: 30px;
+line-height: 1.8;
+font-family: "Special Elite", David Libre, peddana, cursive;
+width: 250px;
+float: left;
+margin-top: 200px;
+margin-left: 0;
+}
+a {
+/* tar bort underlines*/
+text-decoration: none;
+}
+/*centrerar bilden*/
+#firstpicture {
+padding: 20px;
+float: left;
+}/*sida galleri, stylar box samt bilder i boxen. Centrerar text och ordnar bilder i columner*/
+.bilder{
+display: flex;
+flex-wrap: wrap;
+}/*style för bilderna, gick ej igenom valideringen om de satts med samma id, därav individuellt id*/
+#p1, #p2, #p3, #p4, #p5, #p6, #p7, #p8, #p9, #p10, #p11, #p12, #p13, #p14, #p15, #p16, #p17, #p18, #p19, #p20{
+text-align: center;
+padding: 20px;
+font-size: 15px;
+}/*style för texten i de olika boxarna och listorna*/
+#information {
+text-align: center;
+font-size: 20px;
+line-height: 1.8;
+font-family: "Special Elite", David Libre, peddana, cursive;
+padding: 50px;
+display: flex;
+flex-direction: column;
+}
+#list1,#list2, #list3 ol, li {
+text-align: center;
+font-size: 20px;
+line-height: 1.8;
+font-family: "Special Elite", David Libre, peddana, cursive;
+list-style: none;
+}
+#list1,#list2, #list3{
+padding: 50px;
+display: flex;
+flex-direction: column;
+font-size: 20px;
+}
+.kontakt{
+text-align: center;	
+}
+#eftervard {
+text-align: center;
+font-size: 20px;
+line-height: 1.8;
+font-family: "Special Elite", David Libre, peddana, cursive;
+padding: 50px;
+display: flex;
+flex-direction: column;
+}/*2 st adressrutor med samma text- för att underlätta redigering längre fram då kontaktsidan ev. kommer förändras ännu*/
+#adress{
+text-align: center;
+font-size: 15px;
+line-height: 1.8;
+font-family: "Special Elite", David Libre, peddana, cursive;
+display: flex;
+flex-direction: column;
+}
+#adress2 {
+text-align: center;
+font-size: 15px;
+line-height: 1.8;
+font-family: "Special Elite", David Libre, peddana, cursive;
+display: flex;
+flex-direction: column;
+}

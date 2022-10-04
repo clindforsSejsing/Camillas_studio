@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=David+Libre&family=Patrick+Hand&display=swap');
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(to top left, #f8ec4d, #f54702);
+  }
+    h1 {
+    font-family: "Special Elite", David Libre, peddana, cursive;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 50px;
+    padding: 0;
+    line-height: 1.3;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    color: white;
+  }
+  #earlier_page{
+    font-size:medium;
+    font-weight: bold;
+    font-family: "Special Elite", David Libre, peddana, cursive;
+    text-decoration: none;
+    color: white;
+  }
+  #earlier_page:hover{
+    color: greenyellow;
+  }
+ #btn_printler, #btn_spreadshop{
+    width: 100%;  
+ }
+ a#link_P, a#link_S{
+text-decoration: none;
+color:white;
+ }
+ a#link_P:hover, a#link_S:hover{
+    color:greenyellow;
+ }
+ #first_picture{
+    height: 200px;
+    width: 200px;
+ }
+ #img_box{
+    padding-left: 35rem;
+ }
+ #buy_header{
+    text-shadow: 50mm grey;
+ }
+ #buy_p{
+    text-shadow: 50mm grey;
+ }
+ #big_b{
+    margin-top: 10rem;
+    margin-left: 2px;
+ }
+ #link_to_contact{
+    color: yellow;
+    text-decoration: none;
+ }
+ #link_to_contact:hover{
+    color: blue;
+ }
