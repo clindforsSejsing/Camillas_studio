@@ -1,6 +1,10 @@
 # Camillas_studio
 The first webpage I ever made.  Its depoyed and belongs to an artist/tatoo-studio in Kiruna. 
 
-(written in only CSS and HTML so far, but is under construction as the work with the studio is continuous when the artists needs work to be done on it). 
+(First version written in only CSS and HTML)- The artist did art and tattoos (styling moore of a tattoo studio).
 
-you can se at webpage: www.camillasstudio.nu /CLS
+221004- (javascipt, html, css and bootstrap) update with a new version due to the artist only focusing on prints and art. The only demand was the page to be orange/yellow and have a form that redirects emails from the page. Check out the result: 
+
+You can se at webpage: www.camillasstudio.nu /CLS
+
+ (this project is always under construction as the work with the studio is continuous when the artists needs work to be done on it).
