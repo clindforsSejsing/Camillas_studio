@@ -1,5 +1,5 @@
 # Camillas_studio
-The first webpage I ever made.  Its depoyed and belongs to an artist/tatoo-studio in Kiruna. 
+The first webpage I ever made.  Its deployed and belongs to an artist/tatoo-studio in Kiruna. 
 
 (First version written in only CSS and HTML)- The artist did art and tattoos (styling moore of a tattoo studio).
 
@@ -7,4 +7,4 @@ The first webpage I ever made.  Its depoyed and belongs to an artist/tatoo-studi
 
 You can se at webpage: www.camillasstudio.nu /CLS
 
- (this project is always under construction as the work with the studio is continuous when the artists needs work to be done on it).
+ (this project is always under construction as the work with the studio is continuous when the artist needs work to be done on it).
